@@ -1,5 +1,4 @@
-import React from "react";
-import { CreditCard, Download, ExternalLink } from "lucide-react";
+import { Download } from "lucide-react";
 import { Button } from "../Button";
 
 export const PaymentsView = () => {

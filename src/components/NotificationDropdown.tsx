@@ -1,4 +1,4 @@
-import { Bell, CreditCard, BedDouble, Info, CheckCircle2 } from "lucide-react";
+import { CreditCard, BedDouble, Info } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 interface Notification {

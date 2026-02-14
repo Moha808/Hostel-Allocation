@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Button } from "../components/Button";
-import { BedDouble, Building2, CheckCircle, AlertCircle } from "lucide-react";
+import { CheckCircle, AlertCircle } from "lucide-react";
 
 interface ApplicationProps {
   onSuccess: () => void;
@@ -9,7 +9,7 @@ interface ApplicationProps {
 
 export const HostelApplicationForm = ({
   onSuccess,
-  onCancel,
+  onCancel: _onCancel,
 }: ApplicationProps) => {
   const [step, setStep] = useState(1);
   const [selection, setSelection] = useState({
@@ -70,7 +70,7 @@ export const HostelApplicationForm = ({
                     <CheckCircle className="w-5 h-5" />
                   )}
                 </div>
-              )
+              ),
             )}
           </div>
           <div className="pt-4 flex justify-end">

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import {
   LayoutDashboard,
   BedDouble,
@@ -8,10 +8,8 @@ import {
   LogOut,
   Bell,
   Menu,
-  X,
   Search,
 } from "lucide-react";
-import { Button } from "../../components/Button";
 import { Modal } from "../../components/Modal";
 import { HostelApplicationForm } from "../../components/HostelApplicationForm";
 import { PaymentForm } from "../../components/PaymentForm";
@@ -20,7 +18,6 @@ import { ReportFaultForm } from "../../components/ReportFaultForm";
 import { RulesView } from "../../components/RulesView";
 import { MyHostelView } from "../../components/student/MyHostelView";
 import { PaymentsView } from "../../components/student/PaymentsView";
-import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import { LogoutModal } from "../../components/LogoutModal";
 import { StatusTimeline } from "../../components/StatusTimeline";

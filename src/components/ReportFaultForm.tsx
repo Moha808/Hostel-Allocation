@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Button } from "../components/Button";
-import { AlertTriangle, Send } from "lucide-react";
+import { AlertTriangle } from "lucide-react";
 
 export const ReportFaultForm = ({ onClose }: { onClose: () => void }) => {
   const [submitting, setSubmitting] = useState(false);

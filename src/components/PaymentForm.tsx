@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Button } from "../components/Button";
 import { CreditCard, Lock, CheckCircle, Smartphone } from "lucide-react";
 import { motion } from "framer-motion";

@@ -1,6 +1,5 @@
-import React from "react";
 import { Button } from "../Button";
-import { Building2, Users as UsersIcon, Home, Plus } from "lucide-react";
+import { Home, Plus } from "lucide-react";
 
 export const HostelsView = () => {
   const hostels = [

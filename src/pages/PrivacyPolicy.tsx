@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Shield, FileText, Lock, Eye, Globe } from "lucide-react";
+import { Shield, Lock, Eye, Globe } from "lucide-react";
 import { Navbar } from "../components/Navbar";
 
 export const PrivacyPolicy = () => {

@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Button } from "../components/Button";
 import { User, Mail, Hash, BookOpen } from "lucide-react";
 
 export const ProfileView = () => {
   // Mock user data
-  const [user, setUser] = useState({
+  const [user] = useState({
     name: "John Doe",
     matric: "ENG/20/1234",
     email: "john.doe@university.edu",

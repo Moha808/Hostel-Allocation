@@ -1,6 +1,5 @@
-import React from "react";
 import { Button } from "../components/Button";
-import { FileText, Check } from "lucide-react";
+import { FileText } from "lucide-react";
 
 export const RulesView = ({ onClose }: { onClose: () => void }) => {
   const rules = [

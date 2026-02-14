@@ -1,12 +1,4 @@
-import React from "react";
-import {
-  Search,
-  Filter,
-  MoreVertical,
-  Mail,
-  Phone,
-  MapPin,
-} from "lucide-react";
+import { Search, Filter, MoreVertical, Mail, Phone } from "lucide-react";
 import { Button } from "../Button";
 
 export const StudentsListView = () => {
